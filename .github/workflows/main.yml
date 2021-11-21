@@ -20,7 +20,7 @@ jobs:
         run: |
           pip install flake8
           flake8 .
-      continue-on-error: true
+        continue-on-error: true
       
       - name: Run a one-line script
         run: echo Hello, world!
