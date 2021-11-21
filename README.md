@@ -20,3 +20,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
+- Run the code
+
+```bash
+flask run
+```
+
+- A GitHub actions pipeline has been set up, so on pushing the code, a CI/CD pipeline is triggered.
+  
